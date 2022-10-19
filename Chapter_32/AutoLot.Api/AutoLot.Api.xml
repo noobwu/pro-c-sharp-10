@@ -105,6 +105,13 @@
             </remarks>
             <returns>List of strings</returns>
         </member>
+        <member name="M:AutoLot.Api.Controllers.ValuesController.Delete(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
         <member name="T:AutoLot.Api.Swagger.SwaggerDefaultValues">
             <summary>
             Represents the Swagger/Swashbuckle operation filter used to document the implicit API version parameter.
