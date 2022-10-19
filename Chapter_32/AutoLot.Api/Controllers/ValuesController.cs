@@ -77,4 +77,19 @@ public class ValuesController : ControllerBase
     {
         return NotFound();
     }
+
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="name"></param>
+    /// <returns></returns>
+    [HttpDelete("delete/{name}")]
+    public IActionResult Delete(string name)
+    {
+        if (string.IsNullOrWhiteSpace(name))
+        {
+            return Ok("请求参数错误");
+        }
+        return Ok("删除成功");
+    }
 }
